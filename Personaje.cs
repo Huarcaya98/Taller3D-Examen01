@@ -12,6 +12,7 @@ namespace Examen01_Taller3D
         public string nombre;
         public int vida;
         public int danio;
+        public List<Item> items = new List<Item>();
         
         public Personaje (string nombre, int vida, int danio)
         {
