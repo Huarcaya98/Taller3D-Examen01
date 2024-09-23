@@ -43,5 +43,21 @@ namespace Examen01_Taller3D
 
         }
 
+        public void UsarItem( Item item)
+        {
+
+            if(item is ItemVida)
+            {
+                vida += item.valor;
+                Console.WriteLine($"{nombre} usó {item.nombre} y recuperó {item.valor} de vida");
+            }
+            else if (item is ItemMana)
+            {
+                mana += item.valor;
+                Console.WriteLine($"{nombre} usó {item.nombre} y recuperó {item.valor} de mana ");
+            }
+            items.Remove(item);
+        }
+
     }
 }
