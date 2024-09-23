@@ -10,6 +10,8 @@ namespace Examen01_Taller3D
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
