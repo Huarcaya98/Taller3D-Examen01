@@ -10,7 +10,9 @@ namespace Examen01_Taller3D
     {
         static void Main(string[] args)
         {
-
+            Juego juego = new Juego();
+            juego.configurarJuego();
+            juego.Iniciar();
 
         }
     }
